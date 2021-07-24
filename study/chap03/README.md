@@ -47,6 +47,12 @@ public class Sample {
 
 ## 함수형 인터페이스, 형식 추론
 
+- 함수 디스크립터(function descriptor): 함수형 인터페이스의 추상 메서드 시그니처
+- 자바의 모든 형식은 참조형(reference type) 또는 기본형(primitive type)에 해당한다.
+- 하지만, 제네릭 파라미터에는 참조형만 사용할 수 있으며, 자바는 이를 위해 Auto Boxing/Unboxing을 제공하지만 비용이 비싸다.
+- 따라서, 기본형 특화 버전의 함수형 인터페이스를 제공한다
+  - 예: IntPredicate, 
+
 ## 메서드 참조
 
 ## 람다 만들기
