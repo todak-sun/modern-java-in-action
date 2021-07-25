@@ -47,6 +47,7 @@ public class FunctionDescriptor {
 
         List<Integer> map = functionDescriptor.map(Arrays.asList("labmdas", "in", "action"), String::length);
         System.out.println(map);
+
     }
 
 }

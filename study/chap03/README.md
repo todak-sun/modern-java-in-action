@@ -51,8 +51,13 @@ public class Sample {
 - 자바의 모든 형식은 참조형(reference type) 또는 기본형(primitive type)에 해당한다.
 - 하지만, 제네릭 파라미터에는 참조형만 사용할 수 있으며, 자바는 이를 위해 Auto Boxing/Unboxing을 제공하지만 비용이 비싸다.
 - 따라서, 기본형 특화 버전의 함수형 인터페이스를 제공한다
-  - 예: IntPredicate, 
+    - 예: IntPredicate,
 
 ## 메서드 참조
+
+- 정적 메서드 참조
+- 다양한 형식의 인스턴스 메서드 참조
+- 기존 객체의 인스턴스 메서드 참조
+
 
 ## 람다 만들기
